@@ -1,0 +1,27 @@
+{
+  "name": "internship-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "concurrently \"npm run server\" \"npm run interface\"",
+    "server": "cd server && npm run dev",
+    "interface": "cd interface && npm start",
+    "postinstall": "cd interface && npm install && cd ../server && npm install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adamjouaid123/internship-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adamjouaid123/internship-project/issues"
+  },
+  "homepage": "https://github.com/adamjouaid123/internship-project#readme",
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  }
+}

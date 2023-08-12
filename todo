@@ -1,0 +1,28 @@
+DONE
+- extract all values from form as json
+- fix errors
+- values of form fields should refer to values from a saved object :)
+- save values in an object and local storage
+- make a view for forms
+- figure out the options list in the OptionsAnswer
+- submit the form to the api
+- pages for individuals (children, marriage only)
+- can be married under 18 (bas shil el logic for isOver18 betsir simpler aslan )
+- page for recommendations (actions) (for each person and the whole family in general)
+
+PENDING
+- connect the interface to the api endpoints
+- do the api crud endpoints (pending)
+
+TODO
+- need to figure out localstorage bullshit (the cases where you needed to do window.location.reload() for example)
+- press on form in home takes me to form with filled values (modify) need to implement get by id
+
+- child adult married same adresse - new form same adresse (?) 
+- name of the donor paying the fees
+- resume 
+BACKLOG 
+- search the forms
+- irshedet
+- tarjame to arabic
+- paginate the forms in the get of /home
