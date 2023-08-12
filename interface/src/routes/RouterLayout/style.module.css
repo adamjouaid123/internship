@@ -1,0 +1,32 @@
+* {
+  /* font-family: sans-serif; */
+  box-sizing: border-box;
+}
+
+.rootLayout {
+  height: 100%;
+  display: flex;
+  flex-flow: column;
+}
+
+.navbar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  min-height: 70px;
+  padding: 10px 50px;
+  border-bottom: 0.5px solid #ccc;
+  color: #023047;
+  justify-content: space-between;
+  background: #eee;
+}
+
+.logo {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.logout {
+  width: 150px;
+  height: 30px;
+}
